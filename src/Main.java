@@ -1,32 +1,30 @@
+import classes.Dice;
+
 public class Main {
-
-
-   public static void main(String[] args) throws InterruptedException {
-      // ChickenVoice.go();
-      // NetGet.getResults();
-
-/*      Dice dice1 = new Dice();
+   public static void dices() {
+      Dice dice1 = new Dice();
       Dice dice2 = new Dice();
       dice1.run();
       dice2.run();
       System.out.println(dice1.number);
-      System.out.println(dice2.number);*/
+      System.out.println(dice2.number);
+   }
 
-
+   public static void multiThreadingTest() throws InterruptedException {
       long startTime = System.currentTimeMillis(), finishTime;
-/*
+
       final double[] sum = {0};
 
-      for (double i = 0; i < 2e9; i++) {
+      for (double i = 0; i < 2e10; i++) {
          sum[0] += i;
       }
       finishTime = System.currentTimeMillis();
 
-      System.out.println("1st way: " + sum[0]);
-      System.out.println(finishTime - startTime);*/
+      System.out.println("1-thread test: " + sum[0]);
+      System.out.println(finishTime - startTime);
 
 
-      System.out.println("\n---------------------------------\n");
+      System.out.println("\n---------------------------------\nMultithread test:\n");
 
       final double[] sum2 = {0};
       final double[] sum3 = {0};
@@ -41,7 +39,6 @@ public class Main {
             }
          }
       });
-
 
       Thread thread2 = new Thread(new Runnable() {
          @Override
@@ -79,6 +76,7 @@ public class Main {
       thread3.setPriority(Thread.NORM_PRIORITY);
       thread3.start();
       thread4.start();
+
       long counter = 0;
       while (thread1.isAlive() && thread2.isAlive() && thread3.isAlive() && thread4.isAlive()) {
          Thread.sleep(10);
@@ -92,7 +90,13 @@ public class Main {
       System.out.println(sum6);
       System.out.println(finishTime - startTime);
       System.out.println("Checks: " + counter);
+   }
 
+   public static void main(String[] args) throws InterruptedException {
+      // ChickenVoice.go();
+      // NetGet.getResults();
+      // dices();
+      // multiThreadingTest();
    }
 }
 
