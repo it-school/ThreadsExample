@@ -1,4 +1,7 @@
 import classes.Dice;
+import classes.GetJSONbyURL;
+
+import java.io.IOException;
 
 public class Main {
    public static void dices() {
@@ -97,6 +100,11 @@ public class Main {
       // NetGet.getResults();
       // dices();
       // multiThreadingTest();
+      try {
+         System.out.println(GetJSONbyURL.load("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5"));
+      } catch (IOException e) {
+         e.printStackTrace();
+      }
    }
 }
 
