@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e8678ee-074d-4570-a633-c9e54ae0ef88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/ChickenVoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/EggVoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/NetGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThreadsExamle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsExamle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsoup-1.13.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/ChickenVoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/ChickenVoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/EggVoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/EggVoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/NetGet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/NetGet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/NetGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/NetGet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ChickenVoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ChickenVoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/NetGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/NetGet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +38,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/classes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jsoup-1.11.3.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -79,11 +84,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617289491129</updated>
-      <workItem from="1617289492215" duration="1576000" />
+      <workItem from="1617289492215" duration="5839000" />
     </task>
+    <task id="LOCAL-00001" summary="upd2021">
+      <created>1617291192137</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617291192137</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="upd2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd2021" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

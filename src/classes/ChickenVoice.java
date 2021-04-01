@@ -5,9 +5,9 @@ public class ChickenVoice   //Класс с методом main()
     static EggVoice eggOpinion;   //Побочный поток
 
     public static void go() {
-        eggOpinion = new EggVoice();   //Создание потока
+        eggOpinion = new EggVoice();    // Создание потока
         System.out.println("Спор начат...");
-        eggOpinion.start();         //Запуск потока
+        eggOpinion.start();             // Запуск потока
 
         for (int i = 0; i < 5; i++) {
             try {
