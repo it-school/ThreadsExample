@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e8678ee-074d-4570-a633-c9e54ae0ef88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classes/GetJSONbyURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_13_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadsExamle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsExamle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ChickenVoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ChickenVoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/EggVoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/EggVoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/GetJSONbyURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/GetJSONbyURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/NetGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/NetGet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jsoup-1.11.3.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/jsoup-1.13.1.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617289491129</updated>
-      <workItem from="1617289492215" duration="6669000" />
+      <workItem from="1617289492215" duration="7359000" />
     </task>
     <task id="LOCAL-00001" summary="upd2021">
       <created>1617291192137</created>
@@ -105,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617297742027</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="upd2021">
+      <created>1617298157696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617298157696</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
