@@ -9,7 +9,7 @@ public class Dice extends Thread {
    public void run() {
       Random random = new Random();
 
-      for (long i = 0; i < 10000000000L; i++) {
+      for (int i = 0; i < 1000; i++) {
          number = (byte) (1 + random.nextInt(5));
       }
    }
