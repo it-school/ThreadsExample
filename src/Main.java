@@ -1,4 +1,9 @@
+import classes.ChickenVoice;
 import classes.Dice;
+import classes.GetJSONbyURL;
+import classes.NetGet;
+
+import java.io.IOException;
 
 public class Main {
    public static void dices() {
@@ -24,7 +29,7 @@ public class Main {
       System.out.println(finishTime - startTime);
 
 
-      System.out.println("\n---------------------------------\nMultithread test:\n");
+      System.out.println("\n---------------------------------\nMultithreading test:\n");
 
       final double[] sum2 = {0};
       final double[] sum3 = {0};
@@ -89,21 +94,23 @@ public class Main {
    }
 
    public static void main(String[] args) throws InterruptedException {
-//      ChickenVoice.go();
+      // interoperation of main and additional thread
+      ChickenVoice.go();
 
-//       NetGet.getResults();
+      // using different threads (objects - extenders of Thread class)
+      dices();
 
-//      dices();
-
+      // using several threads for calculation of sum
       multiThreadingTest();
 
-/*
+      // get data from net without additional thread - not applicable in Android development
       try {
-          System.out.println(GetJSONbyURL.load("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5"));
+         System.out.println(GetJSONbyURL.load("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5"));
       } catch (IOException e) {
          e.printStackTrace();
       }
- */
+
+      // get data from net using additional thread as anonymous thread without management
+      NetGet.getResults();
    }
 }
-

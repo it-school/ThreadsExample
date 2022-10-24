@@ -26,8 +26,8 @@ public class NetGet {
             }
          }).start();
 
-         Thread.sleep(1000);
-//         Thread.sleep(2000);
+         Thread.sleep(1000); // may be not enough to complete
+//         Thread.sleep(2000);   // may be often enough to complete
          list.add("" + finalI + ") " + text[0]);
       }
 
