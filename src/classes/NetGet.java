@@ -10,7 +10,7 @@ public class NetGet {
       final String[] text = {""};
       ArrayList<String> list = new ArrayList<>();
 
-      for (int version = 7; version <= 16; version++) {
+      for (int version = 7; version <= 19; version++) {
          System.out.println("Thread for Java" + version);
          int finalI = version;
 
@@ -20,7 +20,6 @@ public class NetGet {
                   System.out.println("https://www.google.com/search?q=java" + finalI);
                   Document document = Jsoup.connect("https://www.google.com/search?q=java" + finalI).timeout(30000).get();
                   text[0] = document.text();
-
                } catch (Exception ex) {
                   ex.printStackTrace();
                }
@@ -28,6 +27,7 @@ public class NetGet {
          }).start();
 
          Thread.sleep(1000);
+//         Thread.sleep(2000);
          list.add("" + finalI + ") " + text[0]);
       }
 

@@ -1,7 +1,4 @@
 import classes.Dice;
-import classes.GetJSONbyURL;
-
-import java.io.IOException;
 
 public class Main {
    public static void dices() {
@@ -38,7 +35,7 @@ public class Main {
          @Override
          public void run() {
             for (double i = 0; i < 1e10 / 2; i++) {
-               sum2[0] = i;
+               sum2[0] += i;
             }
          }
       });
@@ -47,7 +44,7 @@ public class Main {
          @Override
          public void run() {
             for (double i = 1e10 / 2; i < 2e10 / 2; i++) {
-               sum3[0] = i;
+               sum3[0] += i;
             }
          }
       });
@@ -56,18 +53,14 @@ public class Main {
          @Override
          public void run() {
             for (double i = 2e10 / 2; i < 2e10 / 2 + 1e10 / 2; i++) {
-               sum4[0] = i;
+               sum4[0] += i;
             }
          }
       });
 
-
-      Thread thread4 = new Thread(new Runnable() {
-         @Override
-         public void run() {
-            for (double i = 2e10 / 2 + 1e10 / 2; i < 2e10; i++) {
-               sum5[0] = i;
-            }
+      Thread thread4 = new Thread(() -> {
+         for (double i = 2e10 / 2 + 1e10 / 2; i < 2e10; i++) {
+            sum5[0] += i;
          }
       });
 
@@ -96,15 +89,21 @@ public class Main {
    }
 
    public static void main(String[] args) throws InterruptedException {
-      // ChickenVoice.go();
-      // NetGet.getResults();
-      // dices();
-      // multiThreadingTest();
+//      ChickenVoice.go();
+
+//       NetGet.getResults();
+
+//      dices();
+
+      multiThreadingTest();
+
+/*
       try {
-         System.out.println(GetJSONbyURL.load("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5"));
+          System.out.println(GetJSONbyURL.load("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5"));
       } catch (IOException e) {
          e.printStackTrace();
       }
+ */
    }
 }
 

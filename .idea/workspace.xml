@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4e8678ee-074d-4570-a633-c9e54ae0ef88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_13_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThreadsExamle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsExamle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/Main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/Main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/Main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/ChickenVoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/ChickenVoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/Dice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/EggVoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/EggVoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/NetGet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/NetGet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/NetGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsExamle/classes/NetGet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/ChickenVoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ChickenVoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/EggVoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/EggVoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/GetJSONbyURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/GetJSONbyURL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/NetGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/NetGet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1jAnVUeQREfsGdtlpT14l69pLlB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,23 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/jsoup-1.13.1.jar" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/vence/Dropbox/Documents/programming/Java/ThreadsExample",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\IdeaProjects\ThreadsExamle\src\classes" />
@@ -83,6 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1617289491129</updated>
       <workItem from="1617289492215" duration="7359000" />
+      <workItem from="1654578730809" duration="1799000" />
+      <workItem from="1666594524116" duration="5450000" />
     </task>
     <task id="LOCAL-00001" summary="upd2021">
       <created>1617291192137</created>
